@@ -1,0 +1,33 @@
+{
+  "name": "cinegma-films",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cinegma Films — independent Pakistani cinema by Syed Asad Raza Abidi",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "sanity:dev": "sanity dev --schema-path ./sanity",
+    "sanity:deploy": "sanity deploy --schema-path ./sanity"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.9",
+    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/vercel": "^8.0.1",
+    "@sanity/client": "^6.22.5",
+    "@sanity/image-url": "^1.1.0",
+    "@vercel/og": "^0.6.4",
+    "astro": "^5.0.5",
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.20",
+    "resend": "^4.0.1",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@sanity/vision": "^3.66.1",
+    "sanity": "^3.66.1",
+    "typescript": "^5.7.2"
+  }
+}
